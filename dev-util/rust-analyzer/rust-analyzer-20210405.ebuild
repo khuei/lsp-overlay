@@ -190,7 +190,12 @@ SLOT="0"
 IUSE=""
 RESTRICT="mirror"
 
-DEPEND=">=dev-lang/rust-1.51.0[rls]"
+DEPEND="
+	|| (
+		>=dev-lang/rust-1.51.0[rls]
+		>=dev-lang/rust-bin-1.51.0[rls]
+	)
+"
 RDEPEND="${DEPEND}"
 
 src_unpack() {
