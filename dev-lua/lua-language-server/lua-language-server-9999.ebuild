@@ -11,8 +11,7 @@ EGIT_REPO_URI="https://github.com/sumneko/lua-language-server"
 EGIT_SUBMODULES=( '*' )
 LICENSE="MIT"
 SLOT="0"
-# Treacherous but it's an easy solution for the git submodules for now
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE=""
 
 RDEPEND="dev-lang/lua:="
