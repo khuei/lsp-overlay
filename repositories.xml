@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>lsp-overlay</name>
+        <description>home of language servers</description>
+        <source type="git">https://github.com/Z5483/lsp-overlay</source>
+    </repo>
+</repositories>
