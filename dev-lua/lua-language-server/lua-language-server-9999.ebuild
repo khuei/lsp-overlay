@@ -32,5 +32,7 @@ src_compile() {
 }
 
 src_install() {
+	insinto /usr/share/${PN}
+	doins -r locale meta script *.lua
 	dobin bin/Linux/*
 }
