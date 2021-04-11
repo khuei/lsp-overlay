@@ -17,6 +17,7 @@ RESTRICT="mirror"
 
 RDEPEND="
 	dev-perl/AnyEvent
+	dev-perl/AnyEvent-AIO
 	dev-perl/Class-Refresh
 	dev-perl/Compiler-Lexer
 	dev-perl/Coro
