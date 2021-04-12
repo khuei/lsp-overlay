@@ -22,7 +22,6 @@ HOMEPAGE="https://github.com/regen100/cmake-language-server"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORD="~amd64 ~x86"
 IUSE=""
 RESTRICT="mirror"
 
