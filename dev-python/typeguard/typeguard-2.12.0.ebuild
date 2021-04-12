@@ -20,7 +20,7 @@ RESTRICT="mirror"
 # https://github.com/agronholm/typeguard/issues/176#issuecomment-780398970
 BDEPEND="
 	test? (
-		=dev-python/typeguard-${PV}[${PYTHON_USEDEP}]
+		~dev-python/typeguard-${PV}[${PYTHON_USEDEP}]
 		dev-python/mypy[${PYTHON_USEDEP}]
 		dev-python/typing-extensions[${PYTHON_USEDEP}]
 	)
