@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/richterger/Perl-LanguageServer"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 IUSE=""
 RESTRICT="mirror"
 
