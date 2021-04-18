@@ -16,7 +16,7 @@
 - [ ] dhall_lsp_server
 - [x] diagnosticls
 - [ ] dockerls
-- [ ] dotls
+- [x] dotls
 - [x] efm
 - [ ] elixirls
 - [ ] elmls
