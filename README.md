@@ -55,7 +55,6 @@
 - [x] pyright
 - [ ] r_language_server
 - [ ] racket_langserver
-- [ ] rls
 - [ ] rnix
 - [ ] rome
 - [x] rust_analyzer
