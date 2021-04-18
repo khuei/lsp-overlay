@@ -15,7 +15,7 @@
 - [ ] dartls
 - [x] denols
 - [ ] dhall_lsp_server
-- [ ] diagnosticls
+- [x] diagnosticls
 - [ ] dockerls
 - [ ] dotls
 - [x] efm
