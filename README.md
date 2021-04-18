@@ -74,7 +74,7 @@
 - [ ] tflint
 - [x] tsserver
 - [ ] vala_ls
-- [ ] vimls
+- [x] vimls
 - [ ] vls
 - [ ] vuels
 - [ ] yamlls
