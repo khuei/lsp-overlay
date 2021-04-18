@@ -1,4 +1,0 @@
-Installation
-____________
-
-layman -o https://raw.github.com/Z5483/lsp-overlay/master/repositories.xml -f -a lsp-overlay
