@@ -28,15 +28,15 @@ NODE_DEPEND="
 	string-width:4.2.0
 	strip-ansi:6.0.0
 	vscode-jsonrpc:5.0.1
-	vscode-languageserver:5.3.0-next.10
 	vscode-languageserver-protocol:3.15.3
 	vscode-languageserver-types:3.15.1
+	vscode-languageserver:5.3.0-next.10
+	vscode-textbuffer:1.0.0
 	wrap-ansi:7.0.0
 	wrappy:1.0.2
 	y18n:5.0.1
-	yargs:16.0.3
 	yargs-parser:20.2.0
-	vscode-textbuffer:1.0.0
+	yargs:16.0.3
 "
 
 NODE_BIN="dot-language-server:bin/server.js"
