@@ -26,7 +26,7 @@ EXPORT_FUNCTIONS src_unpack src_install
 # @DESCRIPTION:
 # The name of the node module that belongs to the package.
 # Defaults to ${PN} if not set
-if [ -z ${NODE_MODULE_NAME} ]; then
+if [[ -z ${NODE_MODULE_NAME} ]]; then
 	NODE_MODULE_NAME="${PN}"
 fi
 # @ECLASS_VARIABLE: NODE_DEPEND
@@ -45,14 +45,25 @@ fi
 
 SRC_URI="http://registry.npmjs.org/${NODE_MODULE_NAME}/-/${NODE_MODULE_NAME}-${PV}.tgz"
 for pkg in ${NODE_DEPEND}; do
-	pkg_name="${pkg%:*}"
+	if [[ ${pkg} == *'/'* ]]; then
+		pkg_lib="${pkg%/*}"
+	else
+		unset pkg_lib
+	fi
+	pkg_name="${pkg#*/}"
+	pkg_name="${pkg_name%:*}"
 	pkg_version="${pkg#*:}"
-	SRC_URI="${SRC_URI} http://registry.npmjs.org/${pkg_name}/-/${pkg_name}-${pkg_version}.tgz"
+
+	if [[ -n ${pkg_lib} ]]; then
+		SRC_URI="${SRC_URI} http://registry.npmjs.org/${pkg_lib}/${pkg_name}/-/${pkg_name}-${pkg_version}.tgz"
+	else
+		SRC_URI="${SRC_URI} http://registry.npmjs.org/${pkg_name}/-/${pkg_name}-${pkg_version}.tgz"
+	fi
 done
 S="${WORKDIR}/${NODE_MODULE_NAME}"
 
 DEPEND=""
-if [ -z ${NODEJS_MIN_VERSION} ]; then
+if [[ -z ${NODEJS_MIN_VERSION} ]]; then
 	RDEPEND="net-libs/nodejs"
 else
 	RDEPEND=">=net-libs/nodejs-${NODEJS_MIN_VERSION}"
@@ -63,10 +74,21 @@ node_src_unpack() {
 	mv "package" "${NODE_MODULE_NAME}" || die
 	mkdir "${NODE_MODULE_NAME}/node_modules" || die
 	for pkg in ${NODE_DEPEND}; do
-		pkg_name="${pkg%:*}"
+		if [[ ${pkg} == *'/'* ]]; then
+			pkg_lib="${pkg%/*}"
+		else
+			unset pkg_lib
+		fi
+		pkg_name="${pkg#*/}"
+		pkg_name="${pkg_name%:*}"
 		pkg_version="${pkg#*:}"
 		unpack "${pkg_name}-${pkg_version}.tgz"
-		mv "package" "${NODE_MODULE_NAME}/node_modules/${pkg_name}" || die
+		if [[ -n ${pkg_lib} ]]; then
+			mkdir -p "${NODE_MODULE_NAME}/node_modules/${pkg_lib}"
+			mv "package" "${NODE_MODULE_NAME}/node_modules/${pkg_lib}/${pkg_name}" || die
+		else
+			mv "package" "${NODE_MODULE_NAME}/node_modules/${pkg_name}" || die
+		fi
 	done
 }
 
