@@ -7,7 +7,6 @@
 - [x] bashls
 - [ ] beancount
 - [x] ccls
-- [ ] clangd
 - [ ] clojure_lsp
 - [ ] cmake
 - [ ] codeqlls
