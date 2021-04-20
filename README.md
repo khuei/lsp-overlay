@@ -8,7 +8,7 @@
 - [ ] beancount
 - [x] ccls
 - [ ] clojure_lsp
-- [ ] cmake
+- [x] cmake
 - [ ] codeqlls
 - [ ] cssls
 - [ ] dartls
