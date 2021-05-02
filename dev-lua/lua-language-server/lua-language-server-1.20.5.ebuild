@@ -27,7 +27,7 @@ src_unpack() {
 
 src_compile() {
 	pushd 3rd/luamake > /dev/null || die
-	eninja -f ninja/linux.ninja || die
+	eninja -f compile/ninja/linux.ninja || die
 	popd > /dev/null || die
 	3rd/luamake/luamake rebuild || die
 }
