@@ -91,10 +91,8 @@ once_cell-1.7.2
 oorandom-11.1.3
 parking_lot-0.11.1
 parking_lot_core-0.8.3
-parser-0.0.0
 paste-0.1.18
 paste-impl-0.1.18
-paths-0.0.0
 percent-encoding-2.1.0
 perf-event-0.4.7
 perf-event-open-sys-1.0.1
