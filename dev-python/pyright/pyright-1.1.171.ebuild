@@ -6,7 +6,7 @@ EAPI=7
 NODE_DEPEND="
 imurmurhash:0.1.4
 columnify:1.5.4
-init-package-json:2.0.4
+init-package-json:2.0.5
 git-semver-tags:4.1.1
 rxjs:6.6.7
 v8-compile-cache:2.3.0
@@ -33,7 +33,7 @@ handlebars:4.7.7
 request:2.88.2
 cli-width:3.0.0
 lodash.template:4.5.0
-prettier:2.4.0
+prettier:2.4.1
 queue-microtask:1.2.3
 aws4:1.11.0
 conventional-changelog-writer:5.0.0
@@ -245,7 +245,7 @@ libnpmconfig:1.2.1
 through:2.3.8
 config-chain:1.1.13
 npm-install-checks:4.0.0
-fastq:1.12.0
+fastq:1.13.0
 lodash.templatesettings:4.2.0
 uuid:3.4.0
 is-glob:4.0.1
@@ -256,7 +256,7 @@ kleur:3.0.3
 ip:1.1.5
 readable-stream:2.3.7
 has:1.0.3
-socks-proxy-agent:6.0.0
+socks-proxy-agent:6.1.0
 function-bind:1.1.1
 read-package-json:2.1.2
 conventional-commits-filter:2.0.7
@@ -326,7 +326,7 @@ at-least-node:1.0.0
 dedent:0.7.0
 modify-values:1.0.1
 isexe:2.0.0
-signal-exit:3.0.3
+signal-exit:3.0.4
 eslint-plugin-simple-import-sort:7.0.0
 mime-db:1.49.0
 esrecurse:4.3.0
