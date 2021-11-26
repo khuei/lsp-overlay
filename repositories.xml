@@ -3,6 +3,6 @@
     <repo quality="experimental" status="unofficial">
         <name>lsp-overlay</name>
         <description>home of language servers</description>
-        <source type="git">https://github.com/Z5483/lsp-overlay</source>
+        <source type="git">https://github.com/khuei/lsp-overlay</source>
     </repo>
 </repositories>

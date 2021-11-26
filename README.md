@@ -7,5 +7,5 @@
 Run the following command to install this overlay:
 
 ``` sh
-$ layman -o https://raw.github.com/Z5483/lsp-overlay/master/repositories.xml -f -a lsp-overlay
+$ layman -o https://raw.github.com/khuei/lsp-overlay/master/repositories.xml -f -a lsp-overlay
 ```
