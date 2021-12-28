@@ -263,7 +263,7 @@ concat-stream:2.0.0
 git-up:4.0.5
 balanced-match:1.0.2
 commander:6.2.1
-json-schema:0.2.3
+json-schema:0.4.0
 jsonparse:1.3.1
 read-package-tree:5.3.1
 util-promisify:2.1.0
