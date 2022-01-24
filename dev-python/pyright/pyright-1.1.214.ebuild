@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -15,17 +15,17 @@ glob:7.2.0
 esutils:2.0.3
 natural-compare:1.4.0
 deprecation:2.3.1
-debug:4.3.2
-mime-types:2.1.33
+debug:4.3.3
+mime-types:2.1.34
 json5:2.2.0
 word-wrap:1.2.3
-sshpk:1.16.1
+sshpk:1.17.0
 is-lambda:1.0.1
 ci-info:2.0.0
 decode-uri-component:0.2.0
 oauth-sign:0.9.0
 npm-registry-fetch:11.0.0
-eslint-visitor-keys:3.0.0
+eslint-visitor-keys:3.1.0
 doctrine:3.0.0
 lowercase-keys:1.0.1
 cmd-shim:4.1.0
@@ -33,11 +33,11 @@ handlebars:4.7.7
 request:2.88.2
 cli-width:3.0.0
 lodash.template:4.5.0
-prettier:2.4.1
+prettier:2.5.1
 queue-microtask:1.2.3
 aws4:1.11.0
 string-width:1.0.2
-conventional-changelog-writer:5.0.0
+conventional-changelog-writer:5.0.1
 object-assign:4.1.1
 clone-response:1.0.2
 minizlib:1.3.3
@@ -77,7 +77,7 @@ punycode:2.1.1
 http-proxy-agent:4.0.1
 tweetnacl:0.14.5
 jsonfile:6.1.0
-git-raw-commits:2.0.10
+git-raw-commits:2.0.11
 yargs-parser:20.2.9
 jju:1.4.0
 end-of-stream:1.4.4
@@ -106,7 +106,7 @@ asn1:0.2.6
 git-url-parse:11.6.0
 micromatch:4.0.4
 p-finally:1.0.0
-graceful-fs:4.2.8
+graceful-fs:4.2.9
 jsbn:0.1.1
 defaults:1.0.3
 is-fullwidth-code-point:1.0.0
@@ -132,7 +132,7 @@ ms:2.1.2
 conventional-changelog-core:4.2.4
 npmlog:4.1.2
 yargs:16.2.0
-object-inspect:1.11.0
+object-inspect:1.12.0
 ini:1.3.8
 byline:5.0.0
 protocols:1.4.8
@@ -143,7 +143,7 @@ lodash.merge:4.6.2
 tsutils:3.21.0
 aws-sign2:0.7.0
 lodash:4.17.21
-espree:9.0.0
+espree:9.3.0
 minipass-fetch:1.4.1
 JSONStream:1.3.5
 asap:2.0.6
@@ -174,17 +174,17 @@ js-tokens:4.0.0
 upath:2.0.1
 parse-url:6.0.0
 conventional-recommended-bump:6.1.0
-fast-glob:3.2.7
+fast-glob:3.2.10
 is-ci:2.0.0
 duplexer3:0.1.4
 expect-more:1.1.0
 write-file-atomic:2.4.3
 read-pkg-up:3.0.0
-picomatch:2.3.0
+picomatch:2.3.1
 is-plain-object:2.0.4
 libnpmaccess:4.0.3
 assert-plus:1.0.0
-ignore:5.1.9
+ignore:5.2.0
 fs.realpath:1.0.0
 decamelize:1.2.0
 delegates:1.0.0
@@ -201,7 +201,7 @@ json-parse-better-errors:1.0.2
 progress:2.0.3
 minimist-options:4.1.0
 mkdirp:0.5.5
-conventional-commits-parser:3.2.3
+conventional-commits-parser:3.2.4
 isobject:3.0.1
 functional-red-black-tree:1.0.1
 ansi-colors:4.1.1
@@ -214,7 +214,7 @@ read-package-json-fast:2.0.3
 wcwidth:1.0.1
 buffer-from:1.1.2
 jsonlines:0.1.1
-npm-check-updates:12.0.0
+npm-check-updates:12.1.0
 core-util-is:1.0.3
 emoji-regex:8.0.0
 url-parse-lax:3.0.0
@@ -222,11 +222,11 @@ to-regex-range:5.0.1
 filter-obj:1.1.0
 is-typedarray:1.0.0
 deep-extend:0.6.0
-eslint:8.1.0
+eslint:8.6.0
 y18n:5.0.8
 prompts:2.4.2
 keyv:3.1.0
-agentkeepalive:4.1.4
+agentkeepalive:4.2.0
 clone-deep:4.0.1
 minipass-sized:1.0.3
 promise-inflight:1.0.1
@@ -246,7 +246,7 @@ npm-install-checks:4.0.0
 fastq:1.13.0
 lodash.templatesettings:4.2.0
 uuid:3.4.0
-source-map-support:0.5.20
+source-map-support:0.5.21
 is-glob:4.0.3
 wide-align:1.1.5
 parse-path:4.0.3
@@ -255,14 +255,14 @@ kleur:3.0.3
 ip:1.1.5
 readable-stream:2.3.7
 has:1.0.3
-socks-proxy-agent:6.1.0
+socks-proxy-agent:6.1.1
 function-bind:1.1.1
 read-package-json:2.1.2
 conventional-commits-filter:2.0.7
 concat-stream:2.0.0
 git-up:4.0.5
 balanced-match:1.0.2
-commander:6.2.1
+commander:8.3.0
 json-schema:0.4.0
 jsonparse:1.3.1
 read-package-tree:5.3.1
@@ -275,10 +275,10 @@ mimic-response:1.0.1
 safer-buffer:2.1.2
 console-control-strings:1.1.0
 universal-user-agent:6.0.0
-flatted:3.2.2
+flatted:3.2.4
 are-we-there-yet:1.1.7
 enquirer:2.3.6
-lines-and-columns:1.1.6
+lines-and-columns:1.2.4
 minipass-json-stream:1.0.1
 inflight:1.0.6
 minimatch:3.0.4
@@ -289,7 +289,7 @@ dateformat:3.0.3
 gauge:2.7.4
 json-parse-helpfulerror:1.0.3
 asynckit:0.4.0
-argparse:1.0.10
+argparse:2.0.1
 prelude-ls:1.2.1
 registry-auth-token:4.2.1
 tmp:0.0.33
@@ -313,7 +313,7 @@ levn:0.4.1
 make-fetch-happen:9.1.0
 forever-agent:0.6.1
 tough-cookie:2.5.0
-uglify-js:3.14.3
+uglify-js:3.14.5
 rimraf:3.0.2
 lru-cache:6.0.0
 bcrypt-pbkdf:1.0.2
@@ -325,13 +325,13 @@ at-least-node:1.0.0
 dedent:0.7.0
 modify-values:1.0.1
 isexe:2.0.0
-signal-exit:3.0.5
+signal-exit:3.0.6
 eslint-plugin-simple-import-sort:7.0.0
-mime-db:1.50.0
+mime-db:1.51.0
 esrecurse:4.3.0
 socks:2.6.1
 eslint-utils:3.0.0
-hosted-git-info:4.0.2
+hosted-git-info:4.1.0
 caseless:0.12.0
 path-parse:1.0.7
 ajv:6.12.6
@@ -349,7 +349,6 @@ performance-now:2.1.0
 libnpmpublish:4.0.2
 nopt:4.0.3
 is-text-path:1.0.1
-esprima:4.0.1
 readdir-scoped-modules:1.1.0
 run-parallel:1.2.0
 color-convert:2.0.1
@@ -364,11 +363,12 @@ has-unicode:2.0.1
 universalify:2.0.0
 humanize-ms:1.2.1
 color-name:1.1.4
+color-support:1.1.3
 before-after-hook:2.2.2
 merge2:1.4.1
 abbrev:1.1.1
 duplexer:0.1.2
-acorn:8.5.0
+acorn:8.7.0
 umask:1.1.0
 json-buffer:3.0.0
 inherits:2.0.4
